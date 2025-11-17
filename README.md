@@ -8,7 +8,7 @@ Each program is a practical example designed to solve a common problem, manipula
 
 📋 Table of Contents
 
-* [🌟 Array Properties & Element Checks](#🌟-array-aroperties--element-checks).  
+* [🌟 Array Properties & Element Checks](#🌟-array-properties--element-checks).  
     * [1. Basic Operations & Min/Max](#1-basic-operations--min-max).  
     * [2. Number Property Checks on Elements](#2-number-property-checks-on-elements).  
     
