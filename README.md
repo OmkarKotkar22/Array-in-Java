@@ -8,14 +8,14 @@ Each program is a practical example designed to solve a common problem, manipula
 
 📋 Table of Contents
 
-*[🌟 Array Properties & Element Checks](#🌟-Array-Properties-&-Element-Checks).  
-    *[1. Basic Operations & Min/Max](#1-Basic-Operations-&-Min/Max).  
-    *[2. Number Property Checks on Elements](#2-Number-Property-Checks-on-Elements).  
+* [🌟 Array Properties & Element Checks](#🌟-array-aroperties--element-checks).  
+    * [1. Basic Operations & Min/Max](#1-basic-operations--min-max).  
+    * [2. Number Property Checks on Elements](#2-number-property-checks-on-elements).  
     
-*[🔄 Array Restructuring & Advanced Algorithms](#🔄-Array-Restructuring-&-Advanced-Algorithms).  
-    *[1. Insertion, Deletion & Duplicates](#1-Insertion-Deletion-&-Duplicates).  
-    *[2. Two-Array Operations & Merging](#2-Two-Array-Operation-&-Merging).  
-    *[3. Complex Algorithms & Puzzles](#3-Complex-Algorithms-&-Puzzles).  
+* [🔄 Array Restructuring & Advanced Algorithms](#🔄-array-restructuring--advanced-algorithms).  
+    * [1. Insertion, Deletion & Duplicates](#1-insertion-deletion--duplicates).  
+    * [2. Two-Array Operations & Merging](#2-two-array-operation--merging).  
+    * [3. Complex Algorithms & Puzzles](#3-complex-algorithms--puzzles).  
 
 ---
 ### 🌟 Array Properties & Element Checks
