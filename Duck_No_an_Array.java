@@ -19,18 +19,19 @@ public class Duck_No_an_Array
 
 		for(int i = 0; i < a.length; i++)
 		{
-			Boolean flag = true;
+			Boolean found = true;
 			int temp = a[i];
 			while(temp != 0)
 			{
 				int rem = temp % 10;
 				if(rem == 0)
 				{
-					flag = false;
+					found = false;
+					break;
 				}
 				temp = temp / 10;
 			}
-			if(flag == false)
+			if(!found)
 			{
 				System.out.println("duck number of an array: " + a[i]);
 			}

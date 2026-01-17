@@ -21,21 +21,20 @@ public class Check_Array_Palindrome_not
 
 		int i = 0;
 		int j = a.length - 1;
-		Boolean flag = true;
+		Boolean isPalindrome = true;
 
 		while(i <= j)
 		{
 			if(a[i] != a[j])
 			{
-				flag = false;
+				isPalindrome = false;
 				break;
 			}
 		i++;
 		j--;
 		}
-
 		
-		if(flag)
+		if(isPalindrome)
 		{
 			System.out.println("Array is Palindrome");
 		}

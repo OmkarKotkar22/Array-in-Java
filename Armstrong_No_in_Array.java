@@ -22,7 +22,10 @@ public class Armstrong_No_in_Array
 		Arrays.sort(a);
 		for(int i = 0; i < a.length; i++)
 		{
-			int sum = 0, temp = a[i], temp1 = temp, count = 0;
+			int sum = 0, 
+			     temp = a[i], 
+			     temp1 = temp,
+			     count = 0;
 
 			while(temp != 0)
 			{

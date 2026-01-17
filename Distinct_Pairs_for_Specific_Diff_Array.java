@@ -24,17 +24,20 @@ public class Distinct_Pairs_for_Specific_Diff_Array
 			a[i] = sc.nextInt();
 		}
 
+		System.out.print("Enter the k value: ");
+		int k = sc.nextInt();
+
 		for(int i = 0; i < a.length-1; i++)
 		{
 			for(int j = i+1; j < a.length; j++)
 			{
-				if(Math.abs(a[i] - a[j]) == 5)
+				if(Math.abs(a[i] - a[j]) == k)
 				{
 					System.out.println("[" + a[i] + ", " + a[j] + "]" );
 					count++;
 				}
 			}
 		}
-		System.out.println("Number of distinct pairs for difference 5 are: " + count);
+		System.out.println("Number of distinct pairs for difference "+k+" are: " + count);
 	}
 }
