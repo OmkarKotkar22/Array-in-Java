@@ -21,17 +21,30 @@ public class Find_Missing_Value_In_Array
 		}
                 
 
-		for(int i = 0; i < a.length-1; i++)
-		{
-			int diff = a[i+1] - a[i];
-			if(diff > 1)
-			{
-				for(int j = a[i] + 1; j < a[i+1]; j++)
-				{
-					System.out.println("output: " + j);
-				}
+		int max = a[0];
+		int min = a[0];
+		for(int i = 1; i < a.length; i++)
+	   	{
+	       		if(a[i] > max)
+			{ 
+				max = a[i];
+			}
+			if(a[i] < min){
+				min = a[i];
 			}
 		}
-              		
+
+		for(i = min; i< max; i++){
+			boolean found = false;
+			for(int j = 0; j < a.length; j++){
+				if(a[j] == i){
+					found = true;
+					break;
+				}
+			}
+			if(!found){
+				System.out.print("Missing Elements:  ": i); 
+			}
+		}             		
 	}
 }

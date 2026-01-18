@@ -16,14 +16,8 @@ public class find_even_odd_no_array
 		System.out.println("Display the even and odd number: ");
 		for(int i = 0; i <a.length; i++)
 		{
-			if(a[i] % 2 == 0)
-			{
-				System.out.println("Number is Even ");
-			}
-			else
-			{
-				System.out.println("Number is Odd ");
-			}
+			String str  = a[i] % 2 == 0 ? "Even Numbers" : "Odd Numbers";
+			System.out.print(str);
 		}
 	}
 }
