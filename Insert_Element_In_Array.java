@@ -28,17 +28,20 @@ public class Insert_Element_In_Array
 
 		System.out.println("Enter the Value: ");
 		int value = sc.nextInt();
-
-		for(int i = (a.length-2); i >= index; i--)
+		int newArr[] = new int[size+1];
+		for(int i = 0, j = 0; i <  newArr.length; i++)
 		{
-			a[i+1] = a[i];
-		}
-		a[index] = value;
+			if (i == index) {
+              			newArr[i] = value;
+            		}
+			 else {
+                		newArr[i] = arr[j++];
+            		}
+       	 	}
 
-		System.out.println("Display the Array: ");
-		for(int i = 0; i < a.length; i++)
-		{
-			System.out.println("Index" + i + "Value" + a[i]);
-		}		
+        	System.out.println("Array after insertion:");
+       	 	for (int i = 0; i < newArr.length; i++) {
+        	    System.out.println("Index: " + i + " Value: "+ newArr[i] + " ");
+        	}
 	}
 }
