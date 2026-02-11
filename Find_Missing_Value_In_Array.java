@@ -43,7 +43,7 @@ public class Find_Missing_Value_In_Array
 				}
 			}
 			if(!found){
-				System.out.print("Missing Elements:  ": i); 
+				System.out.print("Missing Elements:  "+ i); 
 			}
 		}             		
 	}
