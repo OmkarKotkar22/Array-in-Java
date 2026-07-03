@@ -30,7 +30,7 @@ public class Check_Majority_Element_in_Array
 			if(count > size/2 && flag == true)
 			{
 				System.out.println("====================");
-				System.out.println(a[i] + ": is Majority Element");
+				System.out.println(a[i] + ": is Major Element");
 				break;
 			}
 			else
